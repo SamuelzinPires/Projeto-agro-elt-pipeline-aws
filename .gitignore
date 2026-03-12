@@ -5,8 +5,8 @@ env/
 src/venv/
 
 # Dados brutos gerados - opcional subir, depende da preferência
-# data/raw/
-# data/processed/
+data/raw/
+data/processed/
 
 # Python cache
 __pycache__/
