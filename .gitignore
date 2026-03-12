@@ -1,0 +1,33 @@
+# Ambientes virtuais - NUNCA subir para o GitHub (são pesados e desnecessários)
+venv/
+.venv/
+env/
+src/venv/
+
+# Dados brutos gerados - opcional subir, depende da preferência
+# data/raw/
+# data/processed/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Variáveis de ambiente (senhas, tokens)
+.env
+*.env
