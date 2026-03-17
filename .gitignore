@@ -1,10 +1,10 @@
-# Ambientes virtuais - NUNCA subir para o GitHub (são pesados e desnecessários)
+# Ambientes virtuais 
 venv/
 .venv/
 env/
 src/venv/
 
-# Dados brutos gerados - opcional subir, depende da preferência
+# Dados brutos gerados
 data/raw/
 data/processed/
 
@@ -28,6 +28,6 @@ desktop.ini
 # Logs
 *.log
 
-# Variáveis de ambiente (senhas, tokens)
+# Variáveis de ambiente 
 .env
 *.env
