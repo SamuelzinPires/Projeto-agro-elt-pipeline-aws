@@ -14,14 +14,14 @@ s3_client = boto3.client(
 )
 
 # Variáveis do Projeto 
-NOME_DO_BUCKET = 'projeto-etl-agro-bronze-samuel' 
+NOME_DO_BRONZE = 'projeto-etl-agro-bronze-samuel' 
 CAMINHO_LOCAL = '../data/raw/production.csv'
 NOME_NA_NUVEM = 'dados_brutos/production_value.csv'
 
 # 4. Envio para a AWS
 try:
     print("Iniciando envio do arquivo para a AWS S3...")
-    s3_client.upload_file(CAMINHO_LOCAL, NOME_DO_BUCKET, NOME_NA_NUVEM)
+    s3_client.upload_file(CAMINHO_LOCAL, NOME_DO_BRONZE, NOME_NA_NUVEM)
     print(" Sucesso! O arquivo enviado na Camada Bronze!")
 except Exception as e:
     print(f" Falha: {e}")
