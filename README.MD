@@ -13,8 +13,6 @@ Este repositório contém o código e a documentação de um pipeline de **Engen
 
 O projeto implementa a **Arquitetura Medallion (Bronze, Silver, Gold)**, automatizando a transformação de dados brutos (CSV) em um formato analítico colunar (Parquet), finalizando com a visualização em um dashboard interativo.
 
-📊 **[Acesse o Dashboard Interativo (Looker Studio) Aqui!](https://lookerstudio.google.com/reporting/18980639-7996-41d7-8d2f-01ce1ca8890a)**
-
 ---
 
 ##  Arquitetura do Data Lake
